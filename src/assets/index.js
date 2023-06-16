@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -25,10 +25,18 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import logon from "./company/logon.png";
+import hit from "./company/campus-hit.png";
+import udemy from "./company/udemy.png";
+import yahalom from "./company/yahalom.png";
+import ort from "./company/ort.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import costmanager from "./cost-manager.png";
+import metadecentraland from "./meta-decentraland.png";
+import pixabay from "./pixabay-image-gallery.png";
 
 export {
   logo,
@@ -59,4 +67,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  logon,
+  hit,
+  udemy,
+  yahalom,
+  ort,
+  costmanager,
+  metadecentraland,
+  pixabay,
 };
