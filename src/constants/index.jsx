@@ -13,20 +13,19 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
+  // figma,
   docker,
-  meta,
-  starbucks,
+  // meta,
+  // starbucks,
   logon,
   hit,
   udemy,
   yahalom,
   ort,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  // tesla,
+  // shopify,
+  // jobit,
+  // tripguide,
   threejs,
   costmanager,
   metadecentraland,
@@ -41,6 +40,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -116,11 +119,20 @@ const technologies = [
 ];
 
 const experiences = [
+
+  {
+    title: "Computer Science B.Sc",
+    company_name: "H.I.T – Holon Institute of Technology",
+    icon: hit,
+    iconBg: "#383E56",
+    date: "Oct 2020 - Jun 2023",
+    points: [],
+  },
   {
     title: "Full-Stack Web Development Bootcamp",
     company_name: "Udemy",
     icon: udemy,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "Jun 2022 - Mar 2023",
     points: [
       <a href="https://www.udemy.com/certificate/UC-7388bef9-2baa-451d-827e-a56137809e55/">
@@ -128,15 +140,6 @@ const experiences = [
       </a>,
     ],
   },
-  {
-    title: "Computer Science B.Sc",
-    company_name: "H.I.T – Holon Institute of Technology",
-    icon: hit,
-    iconBg: "#E6DEDD",
-    date: "Oct 2020 - Jun 2023",
-    points: [],
-  },
-
   {
     title: "IT Support Specialist",
     company_name: "Log-On Software – Magistrate Court, Tel Aviv",

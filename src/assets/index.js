@@ -9,7 +9,6 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -21,22 +20,20 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import logon from "./company/logon.png";
 import hit from "./company/campus-hit.png";
 import udemy from "./company/udemy.png";
 import yahalom from "./company/yahalom.png";
 import ort from "./company/ort.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import costmanager from "./cost-manager.png";
 import metadecentraland from "./meta-decentraland.png";
 import pixabay from "./pixabay-image-gallery.png";
+
+import contact_email from "./email_logo.png";
+import contact_github from "./github_logo.png";
+import contact_linkedin from "./linkedin_logo.png";
+import contact_ramPic from "./RamPic.jpg";
 
 export {
   logo,
@@ -49,7 +46,6 @@ export {
   close,
   css,
   docker,
-  figma,
   git,
   html,
   javascript,
@@ -60,13 +56,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
   logon,
   hit,
   udemy,
@@ -75,4 +64,8 @@ export {
   costmanager,
   metadecentraland,
   pixabay,
+  contact_ramPic,
+  contact_linkedin,
+  contact_github,
+  contact_email,
 };

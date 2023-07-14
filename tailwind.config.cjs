@@ -21,6 +21,9 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
+      spacing: {
+        '-10': '-2.5rem', // This is -40px, adjust the value if necessary
+      },
     },
   },
   plugins: [],
