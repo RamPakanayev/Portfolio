@@ -22,7 +22,14 @@ module.exports = {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
       spacing: {
-        '-10': '-2.5rem', // This is -40px, adjust the value if necessary
+        "-10": "-2.5rem", // This is -40px, adjust the value if necessary
+      },
+      inset: {
+        "-1": "-0.25rem", // -4px
+        "-2": "-0.5rem", // -8px
+        "-3": "-0.75rem", // -12px
+        "-4": "-1rem", // -16px
+        // Add as many as you need
       },
     },
   },
