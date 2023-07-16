@@ -8,3 +8,4 @@
 <!-- 6) change between the udemy and the hit in the experience - [V] -->
 <!-- 7) add another navLinks constants of projects -[V] -->
 <!-- 8) fix errors on the devTools -[/V] -->
+9) elaborate on expiernience 

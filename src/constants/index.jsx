@@ -140,7 +140,14 @@ const experiences = [
     icon: hit,
     iconBg: "#383E56",
     date: "Oct 2020 - Jun 2023",
-    points: [],
+    points: [
+      "Degree average grade: 85",
+      "Projects in: blockchain, frontend, backend, GIS among others.",
+      "Frontend development grade: 98, final project is the client-side of an expenses manager. Written with React, HTML, CSS ",
+      "Backend development grade: 86, final project is the server-side of an expenses manager. Written with  Node.JS, express.JS, REStful web-service, MongoDB.  Tests done using Postman.",
+      "Blockchain course grade: 92, final project is a DApp that allows users to buy, sell and own land(pixels) as NFT  in a digital world, called desentra-land, based on the etherium blockchain(Ganache). Deployed ERC721-based NFTs with Solidity and OpenZeppelin.",
+      "Part of H.I.T’s smart campus project, developed UI integrated campus map for IoT sensors. Written with Leaflet (Javascript)",
+    ],
   },
   {
     title: "Full-Stack Web Development Bootcamp",
@@ -149,9 +156,16 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jun 2022 - Mar 2023",
     points: [
-      <a href="https://www.udemy.com/certificate/UC-7388bef9-2baa-451d-827e-a56137809e55/">
+      <a
+        href="https://www.udemy.com/certificate/UC-7388bef9-2baa-451d-827e-a56137809e55/"
+        className="turquoise-text-gradient"
+      >
         Show Credentials
       </a>,
+      "Mastery of front-end and back-end web development using HTML, CSS, JavaScript, and more.",
+      "Proficiency in handling APIs and databases, using SQL and NoSQL technologies.",
+      "Understanding of web design and user experience principles for creating appealing websites.",
+      "Familiarity with version control via Git and GitHub, and deployment strategies.",
     ],
   },
   {
@@ -184,7 +198,12 @@ const experiences = [
     icon: ort,
     iconBg: "#383E56",
     date: "Oct 2013 - May 2014",
-    points: [],
+    points: [
+      "Coursework centered around computer and software practical engineering",
+      "Object-Oriented Programming in JAVA",
+      "SQL, C, java, assembly",
+      "Data structures, efficiency algorithms, SW engineering fundamentals and SQL databases",
+    ],
   },
 ];
 
