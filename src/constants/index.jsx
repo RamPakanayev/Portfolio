@@ -13,23 +13,23 @@ import {
   nodejs,
   mongodb,
   git,
-  // figma,
   docker,
-  // meta,
-  // starbucks,
   logon,
   hit,
   udemy,
   yahalom,
   ort,
-  // tesla,
-  // shopify,
-  // jobit,
-  // tripguide,
   threejs,
   costmanager,
   metadecentraland,
   pixabay,
+  // bootstrap,
+  // c,
+  // cpp,
+  express,
+  mysql,
+  postman,
+  python,
 } from "../assets";
 
 export const navLinks = [
@@ -53,7 +53,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Software Developer",
+    title: "Software Engineer",
     icon: web,
   },
   {
@@ -71,6 +71,7 @@ const services = [
 ];
 
 const technologies = [
+  // Front-end
   {
     name: "HTML 5",
     icon: html,
@@ -95,31 +96,44 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
+  // Back-end
   {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Express",
+    icon: express,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "MySQL",
+    icon: mysql,
   },
+  // Programming Language
   {
-    name: "git",
+    name: "Python",
+    icon: python,
+  },
+  // DevOps & Testing
+  {
+    name: "Git",
     icon: git,
   },
-
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
+  },
+  {
+    name: "Postman",
+    icon: postman,
   },
 ];
 
 const experiences = [
-
   {
     title: "Computer Science B.Sc",
     company_name: "H.I.T – Holon Institute of Technology",
@@ -205,7 +219,7 @@ const projects = [
   {
     name: "Cost Manager",
     description:
-      "A web-based cost management application built using the MERN stack and deployed on AWS EC2.Designed and developed the user interface using React.js and Bootstrap.Implemented server-side API endpoints using Express.js and MongoDB.",
+      "A M.E.R.N stack website that provides a user-friendly experience for tracking and managing expenses. Offering comprehensive user management features like profile management, account setup and recovery. Deployed on AWS EC2.",
     tags: [
       {
         name: "react",
@@ -221,7 +235,7 @@ const projects = [
       },
       {
         name: "express.js",
-        color: "blue-text-gradient",
+        color: "orange-text-gradient",
       },
     ],
     image: costmanager,
@@ -230,7 +244,7 @@ const projects = [
   {
     name: "Meta_DeCentraland",
     description:
-      "Meta DeCentraland is a decentralized application (DApp) that allows users to buy, sell, and own virtual land in a digital world. This project is built on the Ethereum blockchain and consists of 100 x 100 plots of land, which can be bought and sold as Non-Fungible Tokens (NFTs).",
+      "A decentralized application (DApp) that allows users to buy, sell, and own virtual real estate in a digital world. built on the Ethereum blockchain and consists of 100 x 100 plots of land, which can be owned by users as Non-Fungible Tokens (NFTs).",
     tags: [
       {
         name: "react",
@@ -238,7 +252,7 @@ const projects = [
       },
       {
         name: "Web3",
-        color: "green-text-gradient",
+        color: "turquoise-text-gradient",
       },
       {
         name: "node.js",
@@ -246,7 +260,7 @@ const projects = [
       },
       {
         name: "express.js",
-        color: "blue-text-gradient",
+        color: "orange-text-gradient",
       },
     ],
     image: metadecentraland,
@@ -255,7 +269,7 @@ const projects = [
   {
     name: "Pixabay Gallery",
     description:
-      " a full-stack application with a React.js frontend and a Node.js backend. It fetches and displays images from the Pixabay API.",
+      "An extensive photo gallery application that provides a wide range of images across multiple categories based on the user's preferences selection.it provides an in-depth view of the image details whenever an image is selected.",
     tags: [
       {
         name: "react",
@@ -263,11 +277,15 @@ const projects = [
       },
       {
         name: "redux.js",
-        color: "green-text-gradient",
+        color: "yellow-text-gradient",
       },
       {
         name: "node.js",
         color: "pink-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "orange-text-gradient",
       },
     ],
     image: pixabay,
