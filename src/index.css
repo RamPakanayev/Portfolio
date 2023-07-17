@@ -32,6 +32,13 @@
     #000000
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+.black-gradient:hover {
+  background: linear-gradient(
+    to bottom,
+    #800080,
+    #804dee
+  ); /* This is the violet gradient on hover */
+}
 
 .violet-gradient {
   background: #804dee;
