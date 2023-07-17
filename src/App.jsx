@@ -10,7 +10,10 @@ import {
   Tech,
   Works,
   StarsCanvas,
+  AndroidTech,
 } from "./components";
+
+import { isAndroid } from "./utils/isAndroid";
 
 const App = () => {
   return (
@@ -23,7 +26,7 @@ const App = () => {
 
         <About />
         <Experience />
-        <Tech />
+        {isAndroid() ? <AndroidTech /> : <Tech />}
         <Works />
 
         {/* <Feedbacks /> */}
