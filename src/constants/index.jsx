@@ -23,9 +23,9 @@ import {
   costmanager,
   metadecentraland,
   pixabay,
-  // bootstrap,
-  // c,
-  // cpp,
+  bootstrap,
+  c,
+  cpp,
   express,
   mysql,
   postman,
@@ -130,6 +130,25 @@ const technologies = [
   {
     name: "Postman",
     icon: postman,
+  },
+];
+
+const technologiesExtra = [
+  {
+    name: "bootstrap",
+    icon: bootstrap,
+  },
+  {
+    name: "threejs",
+    icon: threejs,
+  },
+  {
+    name: "c",
+    icon: c,
+  },
+  {
+    name: "cpp",
+    icon: cpp,
   },
 ];
 
@@ -312,4 +331,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  technologiesExtra,
+  experiences,
+  testimonials,
+  projects,
+};

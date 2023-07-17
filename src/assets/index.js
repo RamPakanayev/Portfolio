@@ -18,13 +18,13 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
 import bootstrap from "./tech/bootstrap.svg";
 import c from "./tech/c.svg";
 import cpp from "./tech/cpp.svg";
 import express from "./tech/express.png";
 import mysql from "./tech/mysql.svg";
-import postman from "./tech/postman.svg";
+import postman from "./tech/postman.png";
 import python from "./tech/python.svg";
 
 import logon from "./company/logon.png";
