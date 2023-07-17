@@ -31,6 +31,9 @@ module.exports = {
         "-4": "-1rem", // -16px
         // Add as many as you need
       },
+      fontSize: {
+        'xxs': '.75rem',
+      }
     },
   },
   plugins: [],

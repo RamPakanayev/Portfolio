@@ -20,7 +20,7 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.75] bg-black-100 p-8 rounded-2xl flex items-center justify-center"
+        className="flex-[0.75] bg-black-100 p-8 rounded-6xl flex items-center justify-center opacity-90"
       >
         <div className="flex flex-col items-center justify-center">
           <p className={styles.sectionSubText}>Get in touch</p>
@@ -32,9 +32,7 @@ const Contact = () => {
               className="flex items-center justify-between w-full"
             >
               <img src={contact_email} alt="gmail" className="w-24 h-24" />
-              <span className="text-white font-medium">
-                Gmail
-              </span>
+              <span className="text-white font-medium">Gmail</span>
             </a>
             <a
               href="https://www.linkedin.com/in/ram-pakanayev/"

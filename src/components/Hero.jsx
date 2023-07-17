@@ -15,27 +15,30 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-center`}>
+          <h1
+            className={`${styles.heroHeadText} text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-center`}
+          >
             Welcome to <span className="text-[#915EFF]">Ram Pakanayev</span>'s
             portfolio
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-2 text-white-100 text-xxs`}>
             A dedicated full-stack web developer with a BSc in Computer Science.
-            <br className="sm:block hidden" />
+           <br className="sm:block hidden" />
             I've honed my proficiency in JavaScript, React, and Node through
             self-directed projects.
-            <br className="sm:block hidden" />
+           <br className="sm:block hidden" />
             This journey has instilled a deep understanding of problem-solving
-            and fueled my passion for innovation. I'm eager to apply this blend
-            of knowledge and enthusiasm to a challenging software development
-            role.
+            and fueled my passion for innovation.{" "}
+           <br className="sm:block hidden" />
+            I'm eager to apply this blendof knowledge and enthusiasm to a
+            challenging software development role.
           </p>
         </div>
       </div>
 
       {/* <ComputersCanvas /> */}
 
-      <div className="absolute xs:-mb-48 bottom-48 w-full flex justify-center items-center">
+      {/* <div className="absolute xs:-mb-48 bottom-48 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
@@ -51,7 +54,7 @@ const Hero = () => {
             />
           </div>
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };
