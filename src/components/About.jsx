@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from 'react-parallax-tilt';
+import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -11,7 +11,7 @@ const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
+      className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card "
     >
       <div
         options={{
@@ -19,7 +19,7 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary rounded-[20px] py-1 min-h-[280px] flex justify-evenly items-center flex-col"
+        className="bg-tertiary rounded-[20px] py-1 min-h-[280px] flex justify-evenly items-center flex-col "
       >
         <img
           src={icon}
@@ -45,16 +45,26 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] max-w-6xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in JavaScript and
-        expertise in frameworks like React, Node.js, Web3 and Three.js. I'm a
-        quick learner and collaborate closely with clients to create efficient,
-        scalable, and user-friendly solutions that solve real-world problems.
-        Let's work together to bring your ideas to life!
+        I am Ram Pakanayev, a dedicated full-stack engineer backed by a BSc in
+        Computer Science from the Holon Institute of Technology (HIT), enriched
+        by a full-stack bootcamp course at Udemy. My skills are anchored in
+        JavaScript, React, Node, and Web3, cultivated through a combination of
+        rigorous academic study and self-guided projects. I have a diverse
+        portfolio that demonstrates my ability to deliver efficient and scalable
+        solutions, including managing applications from the beginning to
+        building a decentralized Ethereum platform. I am excited to leverage my
+        skills and experiences to contribute significantly to a progressive
+        software development team within an organization that values innovation
+        and excellence.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <p className={`${styles.sectionSubText} mt-10 text-white`}>
+        The positions I am interested in :
+      </p>
+
+      <div className="mt-10 flex flex-wrap gap-10 ">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

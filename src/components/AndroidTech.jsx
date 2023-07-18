@@ -14,17 +14,17 @@ const AndroidTech = () => {
       >
         <p className={`${styles.sectionSubText} text-center`}>My stack</p>
         <h2 className={`${styles.sectionHeadText} text-center mb-12`}>
-          Languages & Tools 🚀
+          Languages & Tools
         </h2>
       </motion.div>
       <div className="flex flex-row flex-wrap justify-center gap-10">
         {technologies.map((technology) => (
-          <div className="w-28 h-28" key={technology.name}>
+          <div className="xs:w-28 xs:h-28 w-14 h-14" key={technology.name}>
             <img src={technology.icon} alt={technology.name} />
           </div>
         ))}
         {technologiesExtra.map((technology) => (
-          <div className="w-28 h-28" key={technology.name}>
+          <div className="xs:w-28 xs:h-28 w-14 h-14" key={technology.name}>
             <img src={technology.icon} alt={technology.name} />
           </div>
         ))}

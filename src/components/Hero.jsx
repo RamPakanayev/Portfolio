@@ -1,7 +1,7 @@
-import { motion } from "framer-motion";
-
+// import { motion } from "framer-motion";
+// import { ComputersCanvas } from "./canvas";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+
 
 const Hero = () => {
   return (
@@ -22,16 +22,11 @@ const Hero = () => {
             portfolio
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100 text-xxs`}>
-            A dedicated full-stack web developer with a BSc in Computer Science.
-           <br className="sm:block hidden" />
-            I've honed my proficiency in JavaScript, React, and Node through
-            self-directed projects.
-           <br className="sm:block hidden" />
-            This journey has instilled a deep understanding of problem-solving
-            and fueled my passion for innovation.{" "}
-           <br className="sm:block hidden" />
-            I'm eager to apply this blendof knowledge and enthusiasm to a
-            challenging software development role.
+          <br className="sm:block hidden" />
+            A dedicated Software Engineer, possessing a BSc in Computer Science.
+            <br className="sm:block hidden" />
+            Passionate about innovation and problem-solving. 
+            Specializing in full-stack web development, particularly proficient in JavaScript, React, and Node.
           </p>
         </div>
       </div>

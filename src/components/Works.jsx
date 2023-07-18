@@ -70,7 +70,6 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      {/* <div id="projects-marker" className="h-10 mt-10 -mb-10 invisible"></div> */}
       <div id="projects">
         <motion.div variants={textVariant()}>
           <p className={`${styles.sectionSubText} `}>My work</p>
