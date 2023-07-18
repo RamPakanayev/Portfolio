@@ -21,7 +21,7 @@ const Tech = () => {
       </motion.div>
       <div className="flex flex-row flex-wrap justify-center gap-10">
         {technologies.map((technology) => (
-          <div className="xs:w-28 xs:h-28 w-14 h-14" key={technology.name}>
+          <div className="xs:w-28 xs:h-28 w-20 h-20" key={technology.name}>
             <BallCanvas icon={technology.icon} />
           </div>
         ))}
