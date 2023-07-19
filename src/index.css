@@ -34,7 +34,7 @@
 }
 .black-gradient:hover {
   background: linear-gradient(
-    to bottom,
+    to right,
     #800080,
     #804dee
   ); /* This is the violet gradient on hover */

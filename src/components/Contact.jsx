@@ -20,7 +20,7 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.75] bg-black-100 p-8 rounded-6xl flex items-center justify-center opacity-80"
+        className="flex-[0.75] bg-black-100 p-8 rounded-6xl flex items-center justify-center opacity-80 "
       >
         <div className="flex flex-col items-center justify-center">
           <p className={styles.sectionSubText}>Get in touch</p>
@@ -29,28 +29,36 @@ const Contact = () => {
           <div className="mt-12 flex flex-col gap-16 items-center justify-center w-full">
             <a
               href="mailto:rampakanayev@gmail.com"
-              className="flex items-center justify-between w-full"
+              className="flex items-center justify-between w-full transition hover:-translate-y-2 hover:scale-110"
             >
-              <img src={contact_email} alt="gmail" className="w-24 h-24" />
-              <span className="text-white font-medium">Gmail</span>
+              <img
+                src={contact_email}
+                alt="gmail"
+                className="w-24 h-24 "
+              />
+              <span className="text-white text-xl font-medium">Gmail</span>
             </a>
             <a
               href="https://www.linkedin.com/in/ram-pakanayev/"
-              className="flex items-center justify-between w-full"
+              className="flex items-center justify-between w-full transition hover:-translate-y-2 hover:scale-110"
             >
               <img
                 src={contact_linkedin}
                 alt="linkedin"
-                className="w-24 h-24"
+                className="w-24 h-24 "
               />
-              <span className="text-white font-medium">LinkedIn</span>
+              <span className="text-white text-xl font-medium">LinkedIn</span>
             </a>
             <a
               href="https://github.com/RamPakanayev"
-              className="flex items-center justify-between w-full"
+              className="flex items-center justify-between w-full transition hover:-translate-y-2 hover:scale-110"
             >
-              <img src={contact_github} alt="github" className="w-24 h-24" />
-              <span className="text-white font-medium">GitHub</span>
+              <img
+                src={contact_github}
+                alt="github"
+                className="w-24 h-24"
+              />
+              <span className="text-white text-xl font-medium">GitHub</span>
             </a>
           </div>
         </div>

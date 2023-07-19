@@ -37,9 +37,9 @@ import costmanager from "./cost-manager.png";
 import metadecentraland from "./meta-decentraland.png";
 import pixabay from "./pixabay-image-gallery.png";
 
-import contact_email from "./email_logo.png";
-import contact_github from "./github_logo.png";
-import contact_linkedin from "./linkedin_logo.png";
+import contact_email from "./email_logo - Copy.png";
+import contact_github from "./github.png";
+import contact_linkedin from "./linkedin_logo - Copy.png";
 import contact_ramPic from "./RamPic.jpg";
 
 export {
